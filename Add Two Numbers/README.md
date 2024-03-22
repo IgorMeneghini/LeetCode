@@ -1,0 +1,5 @@
+This is a medium problem that I spent a lot of time on.
+
+So, this problem is very simple but has some details that we have to pay attention to, such as the order of the operations. For example, accessing the .next of the list after getting its value for operations.
+
+The logic of this problem is that we have to extract two numbers from two different list, sum them, and store the remainder of the division in the new list. We also have to divide the same sum by 10 to store it in the temporary variable, serving as a holding variable to use in the next sum of the next index of each list. I had to be careful because one list could end before the other, so I treated this issue by checking if the pointer in the list is null or not. Finally, after all this, we have to check if we still have a held number; if so, we will insert it at the end of the output list.
